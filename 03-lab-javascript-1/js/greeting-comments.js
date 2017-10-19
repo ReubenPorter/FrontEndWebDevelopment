@@ -10,15 +10,15 @@
 
   It is also an "anonymous" function because it has/needs no name.
 */
-  
+
   /*
     declare all the variables using 'let'. These get a reference
     to the HTML elements we want by finding their ID
   */
-  let myName = document.getElementById("my-name"); 
-  let userName = document.getElementById("user-name"); 
+  let myName = document.getElementById("my-name");
+  let userName = document.getElementById("user-name");
   let getName = document.getElementById("get-name");
-  
+
   // changes the 'innerHTML' (text) of the element
   function PerformGreeting(ev) {
     myName.innerHTML = userName.value;
@@ -41,7 +41,7 @@
     Uncomment the line below - see what happens when you click
     in the grey area outside the input "submit" button. Why?
   */
-  
-  // getName.addEventListener("click", PerformGreeting);
+
+  getName.addEventListener("click", PerformGreeting);
 
 }());
