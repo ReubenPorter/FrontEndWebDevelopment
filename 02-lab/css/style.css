@@ -1,0 +1,107 @@
+/*body{
+  background: red;
+}*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #3AAFA9;
+}
+
+main{
+  max-width: 80%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+article{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+article h2{
+  text-align: center;
+  color: #DEF2F1;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial,
+}
+
+nav{
+  text-align: center;
+  list-style: none;
+  margin-top: 20px;
+  font-size: 110%;
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+nav ul{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 30px;
+}
+
+nav li{
+  display: inline-block;
+  padding: 0.3em;
+}
+
+nav li a:hover{
+  border-bottom: 5px solid white;
+}
+
+nav a{
+  display: block;
+  text-decoration: none;
+}
+
+table{
+  width: 100%;
+  border: 1px solid black;
+  padding: 5%;
+  border-collapse: collapse;
+}
+
+td{
+  border: 1px solid black;
+}
+
+th{
+  background: black;
+  color: white;
+}
+
+tr:nth-child(even){
+  background: #DEF2F1;
+}
+
+a:link{
+  color: #DED2F1;
+}
+
+a:hover{
+  color: #3AAFA9;
+}
+
+header{
+  color: #DEF2F1;
+  text-align: center;
+}
+
+header h1{
+  text-align: center;
+}
+
+footer{
+  color: #FEFFFF;
+  background-color: ##17252A;
+}
