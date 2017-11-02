@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>The 3 web languages</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Font Awesome icon cheatsheet: http://fontawesome.io/cheatsheet/ -->
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>The three languages of the web</h1>
+  </header>
+
+  <main class="tab_container">
+
+    <!--
+      THE TABS
+      the 'checked' attribute determines which tab will show when the page loads
+      the actual radio buttons for the input tag are hidden in the CSS
+    -->
+    <input id="tab1" type="radio" name="tabs" checked>
+    <!-- the *label* for the radio button forms the clickable tabs -->
+    <label for="tab1"><i class="fa fa-code"></i><span>HTML5</span></label>
+
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2"><i class="fa fa-hashtag"></i><span>CSS</span></label>
+
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3"><i class="fa fa-bug"></i><span>JavaScript</span></label>
+
+    <!-- content for tab 1: HTML5 -->
+    <section id="content1" class="tab-content">
+      <header>
+        <h2>HTML5</h2>
+      </header>
+
+      <!-- one row of table header tags -->
+      <!-- 5 rows of table data tags -->
+      <table id="html-table">
+        <tr>
+          <th>
+            Table header
+          </th>
+        </tr>
+        <tr>
+          <td>
+            test 1
+          </td>
+        </tr>
+        <tr>
+          <td>
+            test 2
+          </td>
+        </tr>
+        <tr>
+          <td>
+            test 3
+          </td>
+        </tr>
+        <tr>
+          <td>
+            test 4
+          </td>
+        </tr>
+        <tr>
+          <td>
+            test 5
+          </td>
+        </tr>
+      </table>
+
+      <footer>
+        <p><a href="#">add an optional link to an HTML5 article here</a></p>
+      </footer>
+    </section>
+
+    <!-- content for tab 2: CSS -->
+    <section id="content2" class="tab-content">
+      <header>
+        <h2>CSS</h2>
+      </header>
+
+  <!-- 5 li tags -->
+      <ul>
+        <li>test 1</li>
+        <li>test 2</li>
+        <li>test 3</li>
+        <li>test 4</li>
+        <li>test 5</li>
+      </ul>
+
+      <footer>
+        <p>add an optional link to a CSS article here</p>
+      </footer>
+    </section>
+
+    <!-- content for tab 3: JavaScript -->
+    <section id="content3" class="tab-content">
+      <header>
+        <h2>JavaScript</h2>
+      </header>
+
+      <dl>
+        <!-- 5 pairs of dt and dd tags -->
+        <dt>
+          JavaScript isn't Java
+        </dt>
+        <dd>
+          Most people confuse the two!
+        </dd>
+        <dd>
+          Please don't do this.
+        </dd>
+        <dt>
+          JavaScript can get HTML elements by
+        </dt>
+        <dd>
+          ID
+        </dd>
+        <dd>
+          Class
+        </dd>
+        <dt>
+          JavaScript is a Scripting language
+        </dt>
+        <dd>
+          It was designed to add features to a web page
+        </dd>
+      </dl>
+
+      <footer>
+        <p>add an optional link to an JavaScript article here</p>
+      </footer>
+    </section>
+
+  </main>
+
+  <!-- adapted from a CodePen by Thierry Koblentz: http://cssmojo.com/pure-css-tab-panel/ -->
+</body>
+</html>
